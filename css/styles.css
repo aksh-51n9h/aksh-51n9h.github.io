@@ -1,0 +1,81 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.btn{
+    margin: 0.2rem 0.2rem 0.2rem 0;
+    /* color: black; */
+    font-weight: 500;
+    border-width: 2px;
+}
+
+.container-fluid{
+    padding: 5% 15%;
+}
+
+.hi-there{
+    font-size: 4rem;
+    font-weight: 900;
+}
+
+#intro{
+    background-color: #eeeff1;
+}
+
+.intro-text{
+    font-size: 1.8rem;
+    line-height: 1.6;
+    margin: auto;
+}
+
+
+.profile-pic-container{
+    margin: auto;
+    text-align: center;
+    padding: 1rem;
+}
+
+.profile-pic{
+    border-radius: 100%;
+    width: 90%;
+}
+
+/* Navigation Bar */
+.navbar{
+    padding: 1% 2%;
+}
+.navbar-brand{
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+/* Skills */
+
+.skills-heading{
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.skills-container{
+    padding: 2rem 0;
+}
+
+/* Contact Form */
+#contact{
+    background-color: #eeeff1;
+}
+
+
+@media (max-width: 768px){
+    .profile-pic{
+        width: 60%;
+    }
+
+    #intro{
+        text-align: center;
+    }
+
+    .navbar{
+        padding: 4%;
+    }
+}
