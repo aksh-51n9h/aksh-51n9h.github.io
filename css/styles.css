@@ -13,19 +13,55 @@ body{
     padding: 5% 15%;
 }
 
+@media (max-width: 1020px){
+    .container-fluid{
+        padding: 5% 10%;
+    }
+}
+
 .hi-there{
     font-size: 4rem;
     font-weight: 900;
+}
+
+@media (max-width: 764px){
+    .hi-there{
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width: 1020px){
+    .hi-there{
+        font-size: 2.9rem;
+    }
 }
 
 #intro{
     background-color: #eeeff1;
 }
 
+@media (max-width: 764px){
+    #intro{
+       text-align: center;
+   }
+}
+
 .intro-text{
     font-size: 1.8rem;
     line-height: 1.6;
     margin: auto;
+}
+
+@media (max-width: 764px){
+    .intro-text{
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 1020px){
+    .intro-text{
+        font-size: 1.4rem;
+    }
 }
 
 
@@ -40,10 +76,29 @@ body{
     width: 90%;
 }
 
+@media (max-width: 764px){
+    .profile-pic{
+        width: 60%;
+    }
+}
+
+@media (max-width: 1020px){
+    .profile-pic{
+        width: 100%;
+    }
+}
+
 /* Navigation Bar */
 .navbar{
     padding: 1% 2%;
 }
+
+@media (max-width: 764px){
+   .navbar{
+       padding: 4%;
+   }
+}
+
 .navbar-brand{
     font-size: 1.8rem;
     font-weight: 600;
@@ -51,7 +106,7 @@ body{
 
 /* Skills */
 
-.skills-heading{
+.skills-heading, .contact-heading{
     font-size: 3rem;
     font-weight: 600;
 }
@@ -65,17 +120,12 @@ body{
     background-color: #eeeff1;
 }
 
-
-@media (max-width: 768px){
-    .profile-pic{
-        width: 60%;
-    }
-
-    #intro{
-        text-align: center;
-    }
-
-    .navbar{
-        padding: 4%;
-    }
+.contact-heading{
+    padding-bottom: 1rem;
 }
+
+.form-row{
+    padding-bottom: 2rem;
+}
+
+
